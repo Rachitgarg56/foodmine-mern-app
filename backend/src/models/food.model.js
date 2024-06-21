@@ -41,6 +41,7 @@ const FoodSchema = new mongoose.Schema({
     toObject: {
         virtuals: true,
     },    
+    timestamps: true,
 }); 
 
 const FoodModel = mongoose.model('food', FoodSchema);
